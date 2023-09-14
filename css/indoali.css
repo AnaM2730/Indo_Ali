@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'letra';
+    src: url(../The\ California.ttf);
+}
+
 html, body{
     height: 100%;
 }
@@ -10,7 +15,7 @@ html, body{
 }
 
 body{
-    background: black;
+    background: rgb(0, 0, 0);
     color: white;
     display: flex;
     flex-direction: column;
@@ -24,7 +29,8 @@ h1{
     width: 100%;
     text-align: center;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 100px;
+    font-family: 'letra';
 }
 
 button{
@@ -64,31 +70,28 @@ img{
     transition: opacity 2s ease-in;
 }
 
+img.cogumelo{
+    width: 80px;
+    height: 50px;
+    margin-top: 80px;
+    margin-left: 330px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+img.cogumelo2{
+    width: 80px;
+    height: 50px;
+    margin-top: 650px;
+    margin-right: -630px;
+}
+img.cogumelo3{
+    width: 80px;
+    height: 50px;
+    margin-bottom: 80px;
+    margin-left: -620px;
+}
+.cogumelo4{
+    width: 80px;
+    height: 50px;
+    margin-bottom: 80px;
+    margin-left: 630px;
+}
